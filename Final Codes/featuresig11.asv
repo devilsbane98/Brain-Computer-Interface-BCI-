@@ -1,0 +1,18 @@
+function feat=featuresig11(sig,label1,freq)
+amp=.5;
+t=(0:length(sig{1})-1)/64;
+pi=3.14;
+       angfr=2*pi*freq;
+       wave=amp*sin(angfr*t)+amp;
+       stimulus=[wave wave wave wave wave wave wave wave wave wave wave wave wave wave];
+       l=length(sig{1}())
+       for i=1:96
+           feat(i,:)=cca(sig{i},stimulus(1:length(sig)));
+           
+
+       end
+       
+ feat(:,15)=label1;
+       
+    %feat=cell2table(feat);
+end
