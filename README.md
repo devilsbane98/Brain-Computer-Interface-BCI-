@@ -24,7 +24,7 @@ Python 2.x(https://python.org)<br>
 ### 1. Emotiv Epoc headset setting:
 The signal is acquired using a 14- Channel EEG- based signal acquisition device called Emotiv EPOC headset. After all the installations, the settings of the device can be altered through the Emotiv Control Panel(keep Emotiv Control Panel open during the whole operation). It is made sure that all the 14 channels give full wirless signal power. To acquire perfect signals 0.9% of saline solution was used.<br>
 ### 2.Data acquisition:<br>
-Pyemotiv acquires the data into a Comma-Separated-Values(.csp) file which is then loaded into for further analysis.<br>
+Pyemotiv acquires the data into a Comma-Separated-Values(.csv) file which is then loaded into for further analysis.<br>
 ### 3. Filtering the data:<br>
 ### Filter Specifications:<br>
 __6<sup>th</sup> order IIR Butterworth Highpass filter with f<sub>cutoff</sub>=5Hz__<br>
