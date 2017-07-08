@@ -1,15 +1,14 @@
 # Brain-Computer-Interface-BCI-
 E-Club iitk summer'17 project
 
-This repository contains a code of a speller which uses BCI.
-If the keyboard gives an error upon running, enter this line in the command window and the run it again: 	        Screen('Preference', 'SkipSyncTests', 1);
-See to it that the screen refresh rate is 75Hz or 75fps.
-
-The training data and classifier model and the total script for the working will be added in a couple of weeks.
+We try to guess the mental process going on in the subject's brain. The following processes can be identified currently(they are sh):
+1. Relaxed State-Subject is relaxed and not thinking about anything in particular.
+2. 3D geometric task-Subject is shown a 3D object for 30 seconds(approx.) and then asked to visualise and rotate it
+3. Math Task- Subject is given a complex mathematical task e.g. multiplication of two 3-digit numbers
+4. number counting and visualisation- subject is asked to imagine a black board with numbers being written and rubbed off constantly.
 
 Requirements:
 Emotiv EPOC headset
 Emotiv EPOC SDK(both can be bought on Emotiv website)
 pyemotiv repository (https://github.com/thearn/pyemotiv)
-Psych Toolbox (http://psychtoolbox.org/)
 MATLAB
