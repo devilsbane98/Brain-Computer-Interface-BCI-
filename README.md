@@ -27,4 +27,17 @@ The signal is acquired using a 14- Channel EEG- based signal acquisition device 
 Pyemotiv acquires the data into a Comma-Separated-Values(.csp) file which is then loaded into for further analysis.<br>
 ### 3. Filtering the data:<br>
 ### Filter Specifications:<br>
-__6<sup>th</sup> order IIR Butterworth, Highpass filter with f<sub>cutoff</sub>=5Hz__<br>
+__6<sup>th</sup> order IIR Butterworth Highpass filter with f<sub>cutoff</sub>=5Hz__<br>
+### 4.Feature Extraction<br>
+The following features were used for data from each channel:<br>
+* simple integral
+* mean
+* rms
+* variance
+* square integral
+* number of slope sign change
+* mean frequency
+* median frequency
+* __6<sup>th</sup> order Autoregression(AR) coefficients__
+* __Waveform length__
+* Band Power
